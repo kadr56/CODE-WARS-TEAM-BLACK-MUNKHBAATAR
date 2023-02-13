@@ -25,7 +25,8 @@ class Person {
       }
   }
   
-  static GreetExtraTerrestrials (raceName) {
-    return `Welcome to Planet Earth ${raceName}`
+  static greetExtraTerrestrials (raceName) {
+    return "Welcome to Planet Earth " + raceName;
   }
+
 }
